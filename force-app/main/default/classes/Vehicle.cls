@@ -18,6 +18,7 @@ public with sharing class Vehicle {
 
     public void Accelerate(Integer s){
         this.Speed += s;
+        //test123
     }
 
     public abstract void Turn(){}
