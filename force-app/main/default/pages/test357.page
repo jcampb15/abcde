@@ -2,6 +2,8 @@
 <!-- Begin Default Content REMOVE THIS -->
 <h1>Congratulations</h1>
 This is your new Page
+
+<apex:stylesheet value="{!$Resource.test357}"></apex:stylesheet>
 <apex:form>
     <apex:pageBlock id = "accPageBlock">
         <apex:pageBlockTable value="{!accs}" var="acc">
