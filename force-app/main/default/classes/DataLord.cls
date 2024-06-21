@@ -49,8 +49,8 @@ public with sharing class DataLord {
 
     public void spawnContact(){
         List<Contact> conList = new List<Contact>();
-        for(int i = 0; i < 200; i++){
-            Contact c = new Contact(Name = 'Contact Number ' + i);
+        for(Integer i = 0; i < 200; i++){
+            Contact c = new Contact(LastName = 'Contact Number ' + i);
             conList.add(c);
         }
 
@@ -59,12 +59,12 @@ public with sharing class DataLord {
 
     public void createHomes(){
         List<Account> accList = new List<Account>();
-        for(int i = 0; i < 3; i++){
+        for(Integer i = 0; i < 3; i++){
             Account a = new Account(Name = 'Account Number ' + i);
             accList.add(a);
         }
 
-        insert a;
+        insert accList;
     }
 
     //NOTE TO ETHAN, SKIPPING CHALLANGES III AND IV AND ELITE CHALLANGES AND MASTER CHALLANGE

@@ -10,7 +10,7 @@ public with sharing class Calculator {
 
     public Integer Multiply (Integer a, Integer b){
         Integer c = 0;
-        for (int i = 0; i < a; i++){
+        for (Integer i = 0; i < a; i++){
             c = Add(b, c);
         }
 
