@@ -1,0 +1,20 @@
+<template>
+    <lightning-input type="text" label="Account Name" class="accName">Account Name</lightning-input>
+    <lightning-button variant="brand" label="Search" onclick={findAccounts} class="slds-m-left_x-small"></lightning-button>
+
+    <template lwc:if={displayAccounts}>
+        <lightning-datatable
+        hide-checkbox-column
+        key-field="id"
+        data={displayAccounts.data}
+        columns={columns}>
+        </lightning-datatable>
+    </template>
+    <!--LWC Challenge:
+ 
+Create a LWC that can accept user input and dynamically display account records where the account name is similar to the value of the text input. Use the wire service only. 
+ 
+Next, recreate the same component but this time use imperative apex.  -->
+
+
+</template>
