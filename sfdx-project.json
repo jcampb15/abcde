@@ -2,11 +2,18 @@
   "packageDirectories": [
     {
       "path": "force-app",
-      "default": true
+      "default": true,
+      "package": "JasonPackage",
+      "versionName": "Version 1.0",
+      "versionNumber": "1.0.0.NEXT",
+      "versionDescription": ""
     }
   ],
   "name": "test345",
   "namespace": "",
   "sfdcLoginUrl": "https://login.salesforce.com",
-  "sourceApiVersion": "59.0"
+  "sourceApiVersion": "59.0",
+  "packageAliases": {
+    "JasonPackage": "0Hoak0000000BTJCA2"
+  }
 }
