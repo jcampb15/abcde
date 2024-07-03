@@ -1,0 +1,12 @@
+<aura:component>
+
+    <aura:handler name="inputEvent" event="c.inputtingEvent" action="{!c.parentHandler}"></aura:handler>
+    <aura:attribute name="inputMessage" type="string"></aura:attribute>
+
+    
+    <aura:if isTrue="{v.inputMessage}">
+        <h1>Message from child: </h1>
+        <div>{!v.inputMessage}</div>
+    </aura:if>
+
+</aura:component>	

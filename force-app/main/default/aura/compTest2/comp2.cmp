@@ -1,0 +1,8 @@
+<aura:component>
+    <aura:registerEvent name="inputEvent" type="c:inputtingEvent"/>
+    
+    <lightning:input label="text input" type="text" name="textInput"></lightning:input>
+    <lightning:button variant="brand" label="Fire Input Event"  title="Fire Input Event" onclick="{!c.handleInput}"></lightning:button>
+
+    
+</aura:component>	
